@@ -1,0 +1,60 @@
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+}
+
+/* .form  */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 80%;
+    padding: 20px;
+    gap: 15px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -5px;
+}
+form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+form div input{
+    padding: 5px 10px;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+div textarea {
+    height: 100px;
+    padding: 5px 10px;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+form button{
+    background-color: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
